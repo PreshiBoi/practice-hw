@@ -11,6 +11,6 @@ def chunking_by(numbers, chunck):
 
     return chunks
 
-print(chunking_by([0,1,4,2,6,8,4,2], 5))
+
         
     
