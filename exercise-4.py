@@ -10,7 +10,3 @@ def chunking_by(numbers, chunck):
         chunks.append(divide)
 
     return chunks
-
-
-        
-    

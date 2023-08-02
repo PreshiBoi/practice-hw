@@ -120,7 +120,7 @@ ref: https://py.checkio.org/en/mission/chunk/Links
 
 ### Exercise 5 - 2pts
 
-Create and return a new Iterable that contains the same elements as the given list items, but with the reversed order of the elements inside every maximal strictly ascending subsequence. This function should not modify the contents of the original list.
+Create and return a new Iterable that contains the same elements as the given list numbers, but with the reversed order of the elements inside every maximal strictly ascending subsequence. This function should not modify the contents of the original list.
 
 Input: List of integers (int).
 

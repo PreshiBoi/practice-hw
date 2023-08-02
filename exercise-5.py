@@ -1,7 +1,19 @@
 def reverse_ascending(numbers):
-    lists = []
-    for i in numbers:
-        lists.append(i)
-    return sorted(lists, reverse = True)
+    result = []
+    subsequence = []
+    prev_num = None
     
-print(reverse_ascending([5, 7, 10, 4, 2, 7, 8, 1, 3]))
+    for num in numbers:
+        if prev_num is None or num > prev_num:
+            subsequence.append(num)
+        else:
+            result.extend(subsequence[::-1])
+            subsequence = [num]
+        
+        prev_num = num
+    
+    result.extend(subsequence[::-1])
+    
+    return result
+
+print(reverse_ascending([]))
